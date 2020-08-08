@@ -1,0 +1,273 @@
+
+/* General button style */
+.btn {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 0px 0px;
+    display: inline-block;
+    margin: 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+    padding: 0px 0px 0px 0px;
+}
+
+.btn-sep:before {
+    background: rgba(0,0,0,0.15);
+}
+
+/* Button 1 */
+.btn-1 {
+    background: #4ca4df;
+    color: #fff;
+}
+
+.btn-1:hover {
+    background: #428fc2;
+}
+
+.btn-1:active {
+    background: #428fc2;
+    top: 2px;
+}
+
+.btn-1:before {
+    vertical-align: middle;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 20%;
+}
+
+/* Button 2 */
+.btn-2 {
+    background: #2c8d54;
+    color: #fff;
+}
+
+.btn-2:hover {
+    background: #226d41;
+}
+
+.btn-2:active {
+    background: #226d41;
+    top: 2px;
+}
+
+.btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 20%;
+}
+
+/* Button 3 */
+.btn-3 {
+    background: #ad5045;
+    color: #fff;
+}
+
+.btn-3:hover {
+    background: #92433b;
+}
+
+.btn-3:active {
+    background: #92433b;
+    top: 2px;
+}
+
+.btn-3:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 20%;
+}
+
+/* Button 3 */
+.btn-4 {
+    background: #34495e;
+    color: #fff;
+}
+
+.btn-4:hover {
+    background: #2c3e50;
+}
+
+.btn-4:active {
+    background: #2c3e50;
+    top: 2px;
+}
+
+.btn-4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 20%;
+}
+
+/* Button 3 */
+.btn-6 {
+    background: #606164;
+    color: #fff;
+}
+
+.btn-6:hover {
+    background: #555658;
+}
+
+.btn-6:active {
+    background: #555658;
+    top: 2px;
+}
+
+.btn-6:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 20%;
+}
+
+/* Button 3 */
+.btn-5 {
+    background: #454150;
+    color: #fff;
+}
+
+.btn-5:hover {
+    background: #3d3b47;
+}
+
+.btn-5:active {
+    background: #3d3b47;
+    top: 2px;
+}
+
+.btn-5:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 20%;
+}
+
+/* Icons */
+
+
+.icon-flag:before {
+    content: "\f11e";
+}
+
+.icon-bad:before {
+    content: "\f119";
+}
+
+.icon-good:before {
+    content: "\f118";
+}
+
+.icon-neutral:before {
+    content: "\f11a";
+}
+
+.icon-ball:before {
+    content: "\f1e3";
+}
+
+.icon-arrow_rewind:before {
+    content: "\f01e";
+}
+
+.icon-play:before {
+    content: "\f01d";
+}
+
+.icon-star:before {
+    content: "\f005";
+}
+
+.icon-build:before {
+    content: "\f1b3";
+}
+
+.icon-human:before {
+    content: "\f21d";
+}
+
+.icon-humans:before {
+    content: "\f0c0";
+}
+
+.icon-timestart:before {
+    content: "\f251";
+}
+
+.icon-timeend:before {
+    content: "\f253";
+}
+
+.icon-check:before {
+    content: "\f00c";
+}
+
+.icon-uncheck:before {
+    content: "\f00d";
+}
+
+.icon-camera:before {
+    content: "\f03d";
+}
