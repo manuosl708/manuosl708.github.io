@@ -1,0 +1,192 @@
+
+/* General button style */
+.btn {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 0px 0px;
+    display: inline-block;
+    margin: 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.btn span {
+    display: inline-block;
+    transform: rotate(0deg);
+    font-size: xx-small;    
+    line-height: 15;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 0;
+    position: absolute;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+    padding: 0px 0px 0px 0px;
+}
+
+.btn-sep:before {
+    background: rgba(0,0,0,0.00);
+}
+
+/* Button 1 */
+.btn-1 {
+    background: #4ca4df;
+    color: #fff;
+}
+
+.btn-1:hover {
+    background: #428fc2;
+}
+
+.btn-1:active {
+    background: #428fc2;
+    top: 2px;
+}
+
+.btn-1:before {
+    vertical-align: middle;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 100%;
+}
+
+/* Button 2 */
+.btn-2 {
+    background: #2c8d54;
+    background: #222222;
+    color: #fff;
+}
+
+.btn-2:hover {
+    background: #555555;
+}
+
+.btn-2:active {
+    background: #777777;
+    top: 2px;
+}
+
+.btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 100%;
+}
+
+
+/* Icons */
+
+
+.icon-flag:before {
+    content: "\f11e";
+}
+
+.icon-bad:before {
+    content: "\f119";
+}
+
+.icon-good:before {
+    content: "\f118";
+}
+
+.icon-neutral:before {
+    content: "\f11a";
+}
+
+.icon-ball:before {
+    content: "\f1e3";
+}
+
+.icon-arrow_rewind:before {
+    content: "\f01e";
+}
+
+.icon-play:before {
+    content: "\f01d";
+}
+
+.icon-star:before {
+    content: "\f005";
+}
+
+.icon-build:before {
+    content: "\f1b3";
+}
+
+.icon-human:before {
+    content: "\f21d";
+}
+
+.icon-humans:before {
+    content: "\f0c0";
+}
+
+.icon-timestart:before {
+    content: "\f251";
+}
+
+.icon-timeend:before {
+    content: "\f253";
+}
+
+.icon-check:before {
+    content: "\f00c";
+}
+
+.icon-uncheck:before {
+    content: "\f00d";
+}
+
+.icon-camera:before {
+    content: "\f03d";
+}
+
+.icon-download:before {
+    content: "\f019";
+}
+
+.icon-stop:before {
+    content: "\f04d";
+}
