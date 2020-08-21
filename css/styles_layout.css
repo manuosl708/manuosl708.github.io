@@ -1,3 +1,4 @@
+
 .grid_layout {
     display: grid;
     grid-template-columns:        24.8% 24.8% 15.9% 15.9% 15.9%;
@@ -5,8 +6,10 @@
     grid-gap: 0.5%;
     align-items: start;
     position: fixed;
-    width: 25%;
-    height: 90%;
+    height: 99%;
+    width: 100%;
+    max-width: 20cm;
+    min-height: 10cm;
     left: -0.2%;
     top: -0.5%;
     padding: 0.6%;

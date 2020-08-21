@@ -55,3 +55,7 @@ progress::-moz-progress-bar {
   background-image: linear-gradient(to left, #4e72C4 0%,#4e72C4 51%,rgb(175, 193, 235) 100%, );
   background-color: #4e72C4;
 }
+
+span {
+  line-height: 100%;
+}
