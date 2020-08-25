@@ -1,3 +1,7 @@
+.selected {   
+    color: #FF0000;
+}
+
 
 /* General button style */
 .btn {
@@ -23,7 +27,9 @@
     border-radius: 10px;
 }
 
-
+.btn-book {
+    width: 100%;
+}
 
 .btn span {
     display: inline-block;
@@ -94,6 +100,13 @@
     background: #2c8d54;
     background: #222222;
     color: #fff;
+    display: block; /*just to wrap content*/
+}
+
+.btn-selected {
+    background: #444444;
+    color: #fff;
+    display: block; /*just to wrap content*/
 }
 
 .btn-2:hover {
@@ -101,6 +114,15 @@
 }
 
 .btn-2:active {
+    background: #777777;
+    top: 2px;
+}
+
+.btn-selected:hover {
+    background: #555555;
+}
+
+.btn-selected:active {
     background: #777777;
     top: 2px;
 }
@@ -113,6 +135,18 @@
     line-height: 250%;
     font-size: 140%;
     width: 100%;
+    display: block; /*just to wrap content*/
+}
+
+.btn-selected:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 250%;
+    font-size: 140%;
+    width: 100%;
+    display: block; /*just to wrap content*/
 }
 
 
@@ -189,4 +223,8 @@
 
 .icon-stop:before {
     content: "\f04d";
+}
+
+.icon-comment:before {
+    content: "\f075";
 }

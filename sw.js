@@ -1,8 +1,7 @@
-var cacheName = 'hello-pwa';
+var cacheName = 'lulila-pwa';
 var filesToCache = [
   '/',
   '/index.html',
-  '/css/style.css',
   '/css/styles.css',
   '/css/styles_bookmarks.css',
   '/css/styles_buttons.css',

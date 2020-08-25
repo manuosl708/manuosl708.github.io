@@ -25,7 +25,7 @@
     "c70 c71 c72 c73 c74";
 }
 
-.grid_area_start {
+.grid_area_abort {
     grid-column: c00 / c01;
     grid-row: c00 / c10;
     width: 100%;
@@ -39,7 +39,7 @@
     height: 100%;
 }
 
-.grid_area_abort {
+.grid_area_start {
     grid-column: c03;
     grid-row: c03 / c13;
     width: 100%;
