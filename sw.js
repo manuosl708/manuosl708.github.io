@@ -4,6 +4,7 @@ var filesToCache = [
   '/index.html',
   '/css/style.css',
   '/js/main.js',
+  '/js/functions.js',
   '/images/click.mp3'
 ];
 
