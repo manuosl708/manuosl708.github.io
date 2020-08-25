@@ -2,9 +2,15 @@ var cacheName = 'hello-pwa';
 var filesToCache = [
   '/',
   '/index.html',
-  '/css/style.css',
+  '/css/styles.css',
+  '/css/styles_bookmarks.css',
+  '/css/styles_buttons.css',
+  '/css/styles_layout.css',
   '/js/main.js',
   '/js/functions.js',
+  '/data/click.mp3',
+  '/data/confirm.wav',
+  '/data/error.wav',
   '/images/click.mp3'
 ];
 
