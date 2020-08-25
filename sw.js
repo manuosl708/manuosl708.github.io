@@ -8,9 +8,8 @@ var filesToCache = [
   '/css/styles_layout.css',
   '/js/main.js',
   '/js/functions.js',
-  '/data/click.mp3',
-  '/data/confirm.wav',
-  '/data/error.wav',
+  '/images/confirm.wav',
+  '/images/error.wav',
   '/images/click.mp3'
 ];
 
