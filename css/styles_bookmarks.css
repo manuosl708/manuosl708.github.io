@@ -1,0 +1,228 @@
+.collapsible_book_black {
+    background-image: linear-gradient(to right, #333333 0%, #3C3C3C 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_black:active, .collapsible_book_black:hover {
+      background-image: linear-gradient(to right, #535353 0%, #5C5C5C 100%);
+      background-color: #595959;
+      box-shadow: 0 0 10px #1A1A1A;
+      border: none;
+  }
+  
+.collapsible_book_black:active {
+    font-weight: bold;
+}
+
+.collapsible_book_black.selected {
+    background-image: linear-gradient(to right, #333333 0%, #3C3C3C 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+  .collapsible_book_light {
+    background-image: linear-gradient(to right, #544444 0%, #7C6C6C 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_light:active, .collapsible_book_light:hover {
+    background-image: linear-gradient(to right, #744444 0%, #9C6C6C 100%);
+      background-color: #595959;
+      box-shadow: 0 0 10px #1A1A1A;
+      border: none;
+  }
+  
+.collapsible_book_light:active {
+      font-weight: bold;
+  }
+
+
+
+  .collapsible_book_red {
+    background-image: linear-gradient(to right, #773322 0%, #7A3A2A 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_red:active, .collapsible_book_red:hover {
+    background-image: linear-gradient(to right, #874332 0%, #8A4A3A 100%);
+    background-color: #595959;
+    box-shadow: 0 0 10px #1A1A1A;
+    border: none;
+  }
+  
+.collapsible_book_red:active {
+      font-weight: bold;
+  }
+
+  
+  .collapsible_book_green2 {
+    background-image: linear-gradient(to right, #334333 0%, #536353 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_green2:active, .collapsible_book_green2:hover {
+    background-image: linear-gradient(to right, #336333 0%, #538353 100%);
+      background-color: #595959;
+      box-shadow: 0 0 10px #1A1A1A;
+      border: none;
+  }
+  
+.collapsible_book_green2:active {
+      font-weight: bold;
+  }
+
+
+
+
+  .collapsible_book_green {
+    background-image: linear-gradient(to right, #336633 0%, #3C6F3C 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_green:active, .collapsible_book_green:hover {
+    background-image: linear-gradient(to right, #437643 0%, #4C7F4C 100%);
+      background-color: #595959;
+      box-shadow: 0 0 10px #1A1A1A;
+      border: none;
+  }
+  
+.collapsible_book_green:active {
+      font-weight: bold;
+  }
+
+
+
+  .collapsible_book_blue {
+    background-image: linear-gradient(to right, #444454 0%, #6C6C7F 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_blue:active, .collapsible_book_blue:hover {
+    background-image: linear-gradient(to right, #444474 0%, #6C6C9F 100%);
+      background-color: #595959;
+      box-shadow: 0 0 10px #1A1A1A;
+      border: none;
+  }
+  
+.collapsible_book_blue:active {
+      font-weight: bold;
+  }
+
+
+
+  .collapsible_book_yellow {
+    background-image: linear-gradient(to right, #67741d 0%, #6C7A2F 100%);
+    background-color: #393939;
+    color: #FFFFEE;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1A1A1A;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  
+.collapsible_book_yellow:active, .collapsible_book_yellow:hover {
+    background-image: linear-gradient(to right, #77842d 0%, #7C8A3F 100%);
+      background-color: #595959;
+      box-shadow: 0 0 10px #1A1A1A;
+      border: none;
+  }
+  
+.collapsible_book_yellow:active {
+      font-weight: bold;
+  }
+
+
+
+  
