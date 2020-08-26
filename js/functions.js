@@ -144,11 +144,15 @@ function download_bookmark_json() {
     {
         audio_click.play();
         var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(bookmark_dict));
+        var csvStr = "data:text/text;charset=utf-8," + encodeURIComponent(json_to_csv(bookmark_dict));
         var textStr = "data:text/text;charset=utf-8," + encodeURIComponent(json_to_text(bookmark_dict));
         var json_data = document.getElementById("id_jsondata");
+        var json_csv = document.getElementById("id_jsoncsv");
         var json_text = document.getElementById("id_jsontext");
         json_data.setAttribute("href",     dataStr     );
         json_data.setAttribute("download", "lulila_data.json");
+        json_csv.setAttribute("href",     csvStr     );
+        json_csv.setAttribute("download", "lulila_data.csv");
         json_text.setAttribute("href",     textStr     );
         json_text.setAttribute("download", "lulila_data.txt");
 
@@ -158,13 +162,20 @@ function download_bookmark_json() {
         }
         else
         {
-            if(window.confirm("Download CSV?"))
+            if(window.confirm("Download CSV? Abbrechen für TXT!"))
             {
-                json_text.click();
+                json_csv.click();
             }
             else
             {
-                /* Do nothing */
+                if(window.confirm("Download TXT?"))
+                {
+                    json_text.click();
+                }
+                else
+                {
+                    /* Do nothing */
+                }
             }
         }
     }
@@ -378,6 +389,25 @@ function json_to_text(mjson)
             mtext = mtext.concat(lookup_button_tag_inverse(mtag)).concat(' - ');
         }
         mtext = mtext.concat('\n\n');
+    }
+    return mtext;
+}
+
+function json_to_csv(mjson)
+{
+    var mtext = 'Time,Preset,Postset,Rating,Comment,Tags\n';
+    for(mbookmark of mjson['Bookmarks'])
+    {
+        mtext = mtext.concat(mbookmark['Time']).concat(',');
+        mtext = mtext.concat(mbookmark['Preset']).concat(',');
+        mtext = mtext.concat(mbookmark['Postset']).concat(',');
+        mtext = mtext.concat(mbookmark['Rating']).concat(',');
+        mtext = mtext.concat(mbookmark['Comment']).concat(',');
+        for(mtag of mbookmark['Tags'])
+        {
+            mtext = mtext.concat(lookup_button_tag_inverse(mtag)).concat(' - ');
+        }
+        mtext = mtext.concat('\n');
     }
     return mtext;
 }
