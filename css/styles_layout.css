@@ -1,17 +1,17 @@
 
 .grid_layout {
     display: grid;
-    grid-template-columns:        24.8% 24.8% 15.9% 15.9% 15.9%;
-    grid-template-rows:     6.9% 6.9% 13.8% 13.8% 13.8% 13.8% 13.8% 13.8%;
-    grid-gap: 0.5%;
+    grid-template-columns:        24.9% 24.9% 16.0% 16.0% 16.0%;
+    grid-template-rows:     6.8% 6.8% 13.6% 13.6% 13.6% 13.8% 13.6% 13.6%;
+    grid-gap: 0.4%;
     align-items: start;
     position: fixed;
-    height: 99%;
+    height: 100%;
     width: 100%;
     max-width: 20cm;
     min-height: 10cm;
-    left: -0.2%;
-    top: -0.5%;
+    left: -0.0%;
+    top: 0.1%;
     padding: 0.6%;
     background-color: #333333;
     grid-template-areas:
