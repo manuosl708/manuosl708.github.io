@@ -29,6 +29,6 @@
   "lang": "de-DE",
   "start_url": "/index.html",
   "display": "fullscreen",
-  "background_color": "white",
+  "background_color": "#333333",
   "theme_color": "white"
 }
