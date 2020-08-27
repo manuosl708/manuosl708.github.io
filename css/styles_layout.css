@@ -1,8 +1,8 @@
 
 .grid_layout {
     display: grid;
-    grid-template-columns:        24.9% 24.9% 16.0% 16.0% 16.0%;
-    grid-template-rows:     6.8% 6.8% 13.6% 13.6% 13.6% 13.8% 13.6% 13.6%;
+    grid-template-columns:        24.5% 24.5% 16.2% 16.2% 16.2%;
+    grid-template-rows:     6.7% 6.7% 13.8% 13.8% 13.8% 13.8% 13.8% 13.8%;
     grid-gap: 0.4%;
     align-items: start;
     position: fixed;
@@ -10,9 +10,12 @@
     width: 100%;
     max-width: 20cm;
     min-height: 10cm;
-    left: -0.0%;
-    top: 0.1%;
-    padding: 0.6%;
+    left: 0.0%;
+    top: 0.0%;
+    padding-top: 0.4%;
+    padding-left: 0.4%;
+    padding-bottom: 0.0%;
+    padding-right: 0.0%;
     background-color: #333333;
     grid-template-areas:
     "c00 c01 c02 c03 c04"
