@@ -110,7 +110,7 @@
 }
 
 .btn-2:hover {
-    background: #555555;
+    background:linear-gradient(#555555, #222222 60%);
 }
 
 .btn-2:active {
@@ -119,7 +119,7 @@
 }
 
 .btn-selected:hover {
-    background: #555555;
+    background:linear-gradient(#999999, #444444 60%);
 }
 
 .btn-selected:active {
